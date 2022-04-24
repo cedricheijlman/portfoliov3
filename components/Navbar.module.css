@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.container ul li {
+  margin: 0 15px;
+}
+
+.container ul button {
+  margin: 0 15px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+}
