@@ -50,3 +50,11 @@
 .hero .contactButton:hover {
   transform: scale(1.02);
 }
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  .hero {
+    width: 100%;
+  }
+}

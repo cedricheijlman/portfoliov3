@@ -47,3 +47,11 @@
   margin-bottom: 7px;
   color: rgb(91, 129, 172);
 }
+
+/* media queries */
+
+@media (max-width: 761px) {
+  .rightNav ul li {
+    display: none;
+  }
+}
