@@ -11,6 +11,22 @@
   width: 70%;
 }
 
+.hero span {
+  color: rgba(26, 26, 172, 0.708);
+}
+
 .hero h2 {
   font-size: 42px;
+}
+
+.hero p {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.hero .bio {
+  font-size: 21px;
+  font-weight: 400;
+  max-width: 450px;
+  color: rgb(80, 80, 80);
 }

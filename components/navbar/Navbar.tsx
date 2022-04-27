@@ -15,8 +15,12 @@ const Navbar: NextPage = () => {
           <li>Projects</li>
           <li>Contact</li>
         </ul>
-        <img src="./githubIcon.svg" />
-        <img src="./linkedinIcon.svg" />
+        <a target="_blank" href="https://github.com/cedricheijlman">
+          <img src="./githubIcon.svg" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/cedricheijlman/">
+          <img src="./linkedinIcon.svg" />
+        </a>
       </div>
     </div>
   );

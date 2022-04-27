@@ -42,4 +42,5 @@
 
 .container ul li:hover {
   margin-bottom: 7px;
+  color: rgb(91, 129, 172);
 }
