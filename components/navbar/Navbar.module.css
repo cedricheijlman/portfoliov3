@@ -17,7 +17,9 @@
 .container img {
   width: 20px;
   transition: all 0.3s;
+
   margin: 0 10px;
+  margin-top: 5px;
 }
 
 .container img:hover {
@@ -28,6 +30,7 @@
 .container ul {
   display: flex;
   list-style: none;
+
   align-items: center;
   justify-content: center;
   height: 100% !important;

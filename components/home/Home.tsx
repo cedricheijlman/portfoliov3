@@ -15,6 +15,7 @@ const Home: NextPage = () => {
           High level experience in fullstack Web development and producing
           quality work.
         </p>
+        <button className={styles.contactButton}>Contact Me</button>
       </div>
     </section>
   );
