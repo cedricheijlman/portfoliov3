@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -8,9 +8,9 @@ interface LayoutProps {
 
 const Layout: NextPage<LayoutProps> = ({ children }) => {
   return (
-    <div style={{ height: "100vh" }}>
+    <div>
       <Navbar />
-      <main style={{ height: "100%" }}>{children}</main>
+      <main>{children}</main>
     </div>
   );
 };
