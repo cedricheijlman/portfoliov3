@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/about/About";
 import Home from "../components/home/Home";
+import Skills from "../components/skills/Skills";
 import styles from "../styles/Home.module.css";
 
 const Index: NextPage = () => {
@@ -15,6 +16,7 @@ const Index: NextPage = () => {
       </Head>
       <Home />
       <About />
+      <Skills />
     </div>
   );
 };
