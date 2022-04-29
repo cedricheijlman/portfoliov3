@@ -19,8 +19,39 @@
   font-size: 39px;
 }
 
+.row {
+  padding-top: 25px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border-radius: 7px;
+  padding: 15px;
+  background-color: rgba(239, 239, 239, 0.781);
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 15px;
+
+  flex: 1;
+}
+
+.row img {
+  margin-bottom: 5px;
+
+  width: 70px;
+}
+
 @media (max-width: 868px) {
   .title {
+    width: 95%;
+  }
+
+  .row {
     width: 95%;
   }
 }
