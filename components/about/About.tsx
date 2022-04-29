@@ -6,7 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const About: NextPage = () => {
   return (
-    <section className={styles.aboutSection}>
+    <section id="about" className={styles.aboutSection}>
       <div className={styles.title}>
         <h1>About Me</h1>
       </div>

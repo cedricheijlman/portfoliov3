@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import React from "react";
 
 import styles from "./Navbar.module.css";
+import { Link } from "react-scroll";
 
 const Navbar: NextPage = () => {
   return (
@@ -10,7 +11,9 @@ const Navbar: NextPage = () => {
       <div className={styles.rightNav}>
         <ul>
           <li>Home</li>
-          <li>About</li>
+          <Link smooth={true} to="about">
+            <li>About</li>
+          </Link>
           <li>Skills</li>
           <li>Projects</li>
           <li>Contact</li>
