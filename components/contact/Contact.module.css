@@ -1,0 +1,109 @@
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.title {
+  width: 70%;
+  border-top: 3px solid rgba(0, 0, 0, 0.048);
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 50px;
+}
+
+.title h1 {
+  font-size: 39px;
+}
+
+.contactRow {
+  display: flex;
+  width: 70%;
+
+  flex-wrap: wrap;
+}
+
+.contactText {
+  flex: 0.4;
+  margin-right: 25px;
+}
+
+.contactText p {
+  margin-top: 10px;
+}
+
+.form {
+  flex: 0.6;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 55px;
+}
+
+.form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form input {
+  margin-bottom: 10px;
+  border: rgb(230, 227, 227) 1px solid;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  font-family: "Poppins";
+  border-radius: 4px;
+}
+
+.form input:active,
+.form input:focus,
+.form textarea:active,
+.form textarea:focus {
+  outline: 1px solid rgb(149, 149, 201);
+}
+
+.form textarea {
+  border: rgb(230, 227, 227) 1px solid;
+  resize: vertical;
+  padding: 10px;
+  outline: none;
+  font-family: "Poppins";
+  font-size: 16px;
+  min-height: 120px;
+  border-radius: 4px;
+}
+
+.submitButton {
+  border: none;
+  padding: 12px 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 7px;
+  font-family: "Poppins";
+  background-color: transparent;
+  cursor: pointer;
+  border: rgba(151, 151, 218, 0.71) 2px solid;
+}
+
+@media (max-width: 868px) {
+  .title {
+    width: 95%;
+  }
+
+  .contactText {
+    flex: 1;
+  }
+
+  .form {
+    flex: 1;
+    margin: 10px 0;
+  }
+
+  .contactRow {
+    width: 95%;
+    flex-direction: column;
+  }
+}
