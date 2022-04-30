@@ -11,9 +11,42 @@ const Projects: NextPage = () => {
       </div>
 
       <div className={styles.row}>
-        <div className={styles.rowItem}>Row Item 1</div>
-        <div className={styles.rowItem}>Row Item 2</div>
-        <div className={styles.rowItem}>Row Item 3</div>
+        <div className={styles.rowItem}>
+          <div className={styles.imgContainer}>Image</div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              molestias odio aliquid rem quos amet reprehenderit expedita
+              ducimus odit illum.
+            </p>
+            <button>More Info</button>
+          </div>
+        </div>
+        <div className={styles.rowItem}>
+          <div className={styles.imgContainer}>Image</div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              molestias odio aliquid rem quos amet reprehenderit expedita
+              ducimus odit illum.
+            </p>
+            <button>More Info</button>
+          </div>
+        </div>
+        <div className={styles.rowItem}>
+          <div className={styles.imgContainer}>Image</div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              molestias odio aliquid rem quos amet reprehenderit expedita
+              ducimus odit illum.
+            </p>
+            <button>More Info</button>
+          </div>
+        </div>
       </div>
     </section>
   );

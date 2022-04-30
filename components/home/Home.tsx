@@ -5,7 +5,7 @@ import styles from "./Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <section className={styles.section}>
+    <section id="home" className={styles.section}>
       <div className={styles.hero}>
         <h2>
           Hey i'm <span>Cedric Heijlman.</span>

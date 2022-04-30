@@ -9,7 +9,9 @@ const Navbar: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.rightNav}>
         <ul>
-          <li>Home</li>
+          <Link smooth={true} to="home">
+            <li>Home</li>
+          </Link>
           <Link smooth={true} to="about">
             <li>About</li>
           </Link>
