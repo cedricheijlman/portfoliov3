@@ -12,9 +12,8 @@ const Contact: NextPage = () => {
       <div className={styles.contactRow}>
         <div className={styles.contactText}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, et
-            odit. Voluptate non nisi laborum! Accusamus corrupti eos in
-            incidunt!
+            I'd love to hear from you. Have thoughts? Comments? Ideas? Whatever
+            your doubt may be, I'm here to listen.
           </p>
         </div>
         <form className={styles.form}>
