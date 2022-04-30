@@ -62,7 +62,7 @@
 .form input:focus,
 .form textarea:active,
 .form textarea:focus {
-  outline: 1px solid rgb(149, 149, 201);
+  outline: 1px solid rgba(85, 120, 217, 0.816);
 }
 
 .form textarea {
@@ -90,7 +90,7 @@
 }
 
 .submitButton:hover {
-  background-color: rgba(76, 76, 145, 0.71);
+  background-color: rgba(85, 120, 217, 0.816);
   color: white;
 }
 

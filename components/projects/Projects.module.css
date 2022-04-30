@@ -78,11 +78,11 @@
   transition: all 0.3s;
   border: none;
   background-color: transparent;
-  border: 1px solid rgb(85, 120, 217);
+  border: 1px solid rgba(85, 120, 217, 0.816);
 }
 
 .projectText button:hover {
-  background-color: rgb(85, 120, 217);
+  background-color: rgba(85, 120, 217, 0.816);
   cursor: pointer;
   color: white;
 }
