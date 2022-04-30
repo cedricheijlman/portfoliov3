@@ -86,9 +86,13 @@ const Skills: NextPage = () => {
       </div>
 
       <div className={styles.row}>
-        {skillsArr.map((item: any) => {
-          return <SkillsItem title={item.title} imgSrc={item.imgSrc} />;
-        })}
+        {skillsArr.map(
+          (item: { title: string; imgSrc: string }, index: number) => {
+            return (
+              <SkillsItem title={item.title} key={index} imgSrc={item.imgSrc} />
+            );
+          }
+        )}
       </div>
     </section>
   );

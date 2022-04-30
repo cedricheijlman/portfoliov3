@@ -9,19 +9,21 @@ const Navbar: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.rightNav}>
         <ul>
-          <Link smooth={true} to="home">
+          <Link rel="noreferrer" smooth={true} to="home">
             <li>Home</li>
           </Link>
-          <Link smooth={true} to="about">
+          <Link rel="noreferrer" smooth={true} to="about">
             <li>About</li>
           </Link>
-          <Link smooth={true} to="skills">
+          <Link rel="noreferrer" smooth={true} to="skills">
             <li>Skills</li>
           </Link>
-          <Link smooth={true} to="projects">
+          <Link rel="noreferrer" smooth={true} to="projects">
             <li>Projects</li>
           </Link>
-          <li>Contact</li>
+          <Link rel="noreferrer" smooth={true} to="contact">
+            <li>Contact</li>
+          </Link>
         </ul>
         <a target="_blank" href="https://github.com/cedricheijlman">
           <img src="./githubIcon.svg" />

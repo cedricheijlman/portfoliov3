@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 
 const Contact: NextPage = () => {
   return (
-    <section className={styles.section}>
+    <section id="contact" className={styles.section}>
       <div className={styles.title}>
         <h1>Contact</h1>
       </div>
