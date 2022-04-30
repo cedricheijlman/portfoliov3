@@ -80,7 +80,7 @@ const skillsArr = [
 
 const Skills: NextPage = () => {
   return (
-    <section className={styles.section}>
+    <section id="skills" className={styles.section}>
       <div className={styles.title}>
         <h1>Skills</h1>
       </div>

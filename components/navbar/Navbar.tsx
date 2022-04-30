@@ -7,15 +7,18 @@ import { Link } from "react-scroll";
 const Navbar: NextPage = () => {
   return (
     <div className={styles.container}>
-      <h2>Cedric Heijlman</h2>
       <div className={styles.rightNav}>
         <ul>
           <li>Home</li>
           <Link smooth={true} to="about">
             <li>About</li>
           </Link>
-          <li>Skills</li>
-          <li>Projects</li>
+          <Link smooth={true} to="skills">
+            <li>Skills</li>
+          </Link>
+          <Link smooth={true} to="projects">
+            <li>Projects</li>
+          </Link>
           <li>Contact</li>
         </ul>
         <a target="_blank" href="https://github.com/cedricheijlman">
