@@ -35,8 +35,8 @@ const Contact: NextPage = () => {
       <div className={styles.contactRow}>
         <div className={styles.contactText}>
           <p>
-            I'd love to hear from you. Have thoughts? Comments? Ideas? Whatever
-            your doubt may be, I'm here to listen.
+            I&apos;d love to hear from you. Have thoughts? Comments? Ideas?
+            Whatever your doubt may be, I&apos;m here to listen.
           </p>
         </div>
         <form ref={form} onSubmit={sendEmail} className={styles.form}>

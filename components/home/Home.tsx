@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <section id="home" className={styles.section}>
       <div className={styles.hero}>
         <h2>
-          Hey i'm <span>Cedric Heijlman.</span>
+          Hey i&apos;m <span>Cedric Heijlman.</span>
         </h2>
         <p>Software Developer Student</p>
         <p className={styles.bio}>

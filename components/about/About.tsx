@@ -13,13 +13,14 @@ const About: NextPage = () => {
       <div className={styles.bio}>
         <div className={styles.left}>
           <p>
-            Hello i'm Cedric, 16 years old and I live in the Netherlands. I'm
-            currently a Software Development Student at ROC MBO Flevoland.
-            September 2021 I started my coding journey with no prior coding
-            skills, firstly started learning HTML, CSS and Javascript, after
-            that I learned some backend languages to be able to make full-stack
-            MAMP applications. 2021 December - 2021 Februari I started learning
-            the frontend framework React and learning the full MERN Stack.
+            Hello i&apos;m Cedric, 16 years old and I live in the Netherlands.
+            I&apos;m currently a Software Development Student at ROC MBO
+            Flevoland. September 2021 I started my coding journey with no prior
+            coding skills, firstly started learning HTML, CSS and Javascript,
+            after that I learned some backend languages to be able to make
+            full-stack MAMP applications. 2021 December - 2021 Februari I
+            started learning the frontend framework React and learning the full
+            MERN Stack.
           </p>
         </div>
         <div className={styles.right}>

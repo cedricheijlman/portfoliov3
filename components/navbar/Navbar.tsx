@@ -25,10 +25,18 @@ const Navbar: NextPage = () => {
             <li>Contact</li>
           </Link>
         </ul>
-        <a target="_blank" href="https://github.com/cedricheijlman">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/cedricheijlman"
+        >
           <img src="./githubIcon.svg" />
         </a>
-        <a target="_blank" href="https://www.linkedin.com/in/cedricheijlman/">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/cedricheijlman/"
+        >
           <img src="./linkedinIcon.svg" />
         </a>
       </div>
