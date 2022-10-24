@@ -82,6 +82,7 @@
   border: none;
   background-color: transparent;
   border: 1px solid rgba(85, 120, 217, 0.816);
+  width: 100%;
 }
 
 .projectText button:hover {

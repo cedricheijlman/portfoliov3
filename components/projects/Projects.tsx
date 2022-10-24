@@ -22,7 +22,11 @@ const Projects: NextPage = () => {
           <div className={styles.projectText}>
             <h3>Discord Clone</h3>
             <p>I made an discord clone with the MERN Stack.</p>
-            <a href="https://discordcloneee.netlify.app/register">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://discordcloneee.netlify.app/register"
+            >
               <button>Open Site</button>
             </a>
           </div>
