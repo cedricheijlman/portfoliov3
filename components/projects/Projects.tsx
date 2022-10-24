@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import Link from "next/link";
 import React from "react";
 
 import styles from "./Projects.module.css";
@@ -12,39 +13,36 @@ const Projects: NextPage = () => {
 
       <div className={styles.row}>
         <div className={styles.rowItem}>
-          <div className={styles.imgContainer}>Image</div>
+          <img
+            alt="Discord Wallpaper"
+            className={styles.imgContainer}
+            src="https://wallpapers.com/images/hd/discord-dark-purple-vector-fbwpgfkg8zpjmuvh.jpg"
+          />
+
           <div className={styles.projectText}>
-            <h3>Project Name</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestias odio aliquid rem quos amet reprehenderit expedita
-              ducimus odit illum.
-            </p>
-            <button>More Info</button>
+            <h3>Discord Clone</h3>
+            <p>I made an discord clone with the MERN Stack.</p>
+            <a href="https://discordcloneee.netlify.app/register">
+              <button>Open Site</button>
+            </a>
           </div>
         </div>
         <div className={styles.rowItem}>
-          <div className={styles.imgContainer}>Image</div>
+          <img
+            alt="Movie Wallpaper"
+            className={styles.imgContainer}
+            src="https://c4.wallpaperflare.com/wallpaper/862/449/162/jack-reacher-star-wars-interstellar-movie-john-wick-wallpaper-preview.jpg"
+          />
           <div className={styles.projectText}>
-            <h3>Project Name</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestias odio aliquid rem quos amet reprehenderit expedita
-              ducimus odit illum.
-            </p>
-            <button>More Info</button>
-          </div>
-        </div>
-        <div className={styles.rowItem}>
-          <div className={styles.imgContainer}>Image</div>
-          <div className={styles.projectText}>
-            <h3>Project Name</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              molestias odio aliquid rem quos amet reprehenderit expedita
-              ducimus odit illum.
-            </p>
-            <button>More Info</button>
+            <h3>Movie Finder Site</h3>
+            <p>A site where you can find info about any movie or tv show.</p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://reactmoviefinder3.netlify.app/"
+            >
+              <button>Open Site</button>
+            </a>
           </div>
         </div>
       </div>

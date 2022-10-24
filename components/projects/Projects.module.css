@@ -51,10 +51,13 @@
 
 .imgContainer {
   flex: 0.55;
-  padding: 10px;
-  background-color: #2ecc71;
+
+  background-color: #c5cdc8;
   border-radius: 10px 10px 0 0;
   display: flex;
+  height: 100px !important;
+  object-fit: cover;
+  width: 100%;
   align-items: center;
   justify-content: center;
   color: white;

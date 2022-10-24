@@ -13,7 +13,7 @@ const About: NextPage = () => {
       <div className={styles.bio}>
         <div className={styles.left}>
           <p>
-            Hello i&apos;m Cedric, 16 years old and I live in the Netherlands.
+            Hello i&apos;m Cedric, 17 years old and I live in the Netherlands.
             I&apos;m currently a Software Development Student at ROC MBO
             Flevoland. September 2021 I started my coding journey with no prior
             coding skills, firstly started learning HTML, CSS and Javascript,
